@@ -22,6 +22,8 @@ namespace WpfApp1
     {
         int firstnum = 0;
         int secondnum = 0;
+        int sum = 0;
+        string operater = "";
         public MainWindow()
         {
             InitializeComponent();
@@ -71,16 +73,51 @@ namespace WpfApp1
         {
             switch (sender.ToString()) {
                 case "System.Windows.Controls.Button: +":
-                    
+                    firstnum = Convert.ToInt32(text.Text);
+                    operater = "+";
+                    text.Text = "";
                     break;
                 case "System.Windows.Controls.Button: -":
-
+                    firstnum = Convert.ToInt32(text.Text);
+                    operater = "-";
+                    text.Text = "";
                     break;
                 case "System.Windows.Controls.Button: *":
-
+                    firstnum = Convert.ToInt32(text.Text);
+                    operater = "*";
+                    text.Text = "";
                     break;
                 case "System.Windows.Controls.Button: /":
+                    firstnum = Convert.ToInt32(text.Text);
+                    operater = "/";
+                    text.Text = "";
+                    break;
+            }
+        }
 
+        private void Button_Click_Sum(object sender, RoutedEventArgs e)
+        {
+            switch (operater)
+            {
+                case "+":
+                    secondnum = Convert.ToInt32(text.Text);
+                    sum = firstnum + secondnum;
+                    text2.Text = ""+firstnum + "+" + secondnum + "=" + sum;
+                    break;
+                case "-":
+                    secondnum = Convert.ToInt32(text.Text);
+                    sum = firstnum - secondnum;
+                    text2.Text = "" + firstnum + "-" + secondnum + "=" + sum;
+                    break;
+                case "*":
+                    secondnum = Convert.ToInt32(text.Text);
+                    sum = firstnum * secondnum;
+                    text2.Text = "" + firstnum + "*" + secondnum + "=" + sum;
+                    break;
+                case "/":
+                    secondnum = Convert.ToInt32(text.Text);
+                    sum = firstnum / secondnum;
+                    text2.Text = "" + firstnum + "/" + secondnum + "=" + sum;
                     break;
             }
         }
