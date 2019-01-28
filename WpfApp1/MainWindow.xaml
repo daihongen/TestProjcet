@@ -1,0 +1,174 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="btn1" Tag="1" Content="1" HorizontalAlignment="Left" Margin="28,94,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.338,-1.43" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="-0.525" Y="1.205"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="28,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="text"/>
+        <Button Name="btn2" Tag="2" Content="2" HorizontalAlignment="Left" Margin="127,94,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="-0.34" Y="-0.007"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="btn3" Tag="3" Content="3" HorizontalAlignment="Left" Margin="223,94,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="-0.341" Y="-0.498"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="btn4" Tag="4" Content="4" HorizontalAlignment="Left" Margin="28,140,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="-0.104" Y="0.499"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="btn5" Tag="5" Content="5" HorizontalAlignment="Left" Margin="127,140,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="-0.105" Y="-0.007"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="btn6" Tag="6" Content="6" HorizontalAlignment="Left" Margin="223,140,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="-0.106" Y="-0.498"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="btn7" Tag="7" Content="7" HorizontalAlignment="Left" Margin="28,184,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="0.121" Y="0.498"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="btn8" Tag="8" Content="8" HorizontalAlignment="Left" Margin="127,184,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="0.12" Y="-0.008"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="btn9" Tag="9" Content="9" HorizontalAlignment="Left" Margin="223,184,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="0.119" Y="-0.499"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btn0" Tag="0" Content="0" HorizontalAlignment="Left" Margin="28,227,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="0.341" Y="0.498"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btnc" Tag="c" Content="C" HorizontalAlignment="Left" Margin="127,227,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="0.34" Y="-0.009"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="28,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="443" x:Name="text2"/>
+        <Button x:Name="btnplus" Tag="plus" Content="+" HorizontalAlignment="Left" Margin="318,94,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Operatin" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="-0.341" Y="-0.498"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btnminus" Tag="minus" Content="-" HorizontalAlignment="Left" Margin="319,138,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Operatin" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="-0.341" Y="-0.498"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btnmul" Tag="mul" Content="*" HorizontalAlignment="Left" Margin="317,183,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Operatin" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="-0.341" Y="-0.498"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btndiv" Tag="div" Content="/" HorizontalAlignment="Left" Margin="318,229,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Operatin" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="-0.341" Y="-0.498"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btnsun" Tag="sum" Content="=" HorizontalAlignment="Left" Margin="223,230,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Operatin" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.293"/>
+                    <TranslateTransform X="-0.341" Y="-0.498"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Window>
